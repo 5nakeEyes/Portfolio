@@ -96,6 +96,66 @@ header {
   color: var(--mid-indigo);
 }
 
+/* ─── Siatka projektów ─── */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Kafelek projektu */
+.project-tile {
+  display: block;
+  background-color: var(--deep-indigo);
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--light-indigo);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-tile img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 150px; /* lub dostosuj do proporcji */
+}
+
+.project-tile h3 {
+  margin: 12px;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+/* Efekt hover */
+.project-tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* ─── Responsywność ─── */
+
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-detail h2 {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  text-align: left;
+  color: var(--light-indigo);
+}
+
 /* ─── Sekcja „O mnie” ─── */
 
 #about {
