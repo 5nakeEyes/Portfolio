@@ -1,0 +1,128 @@
+/* Definicja zmiennych palety kolorów */
+:root {
+  --black-blue:  #070F2B;
+  --deep-indigo: #1B1A55;
+  --mid-indigo:  #535C91;
+  --light-indigo:#9290C3;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Globalne ustawienia */
+body {
+  background-color: var(--black-blue);
+  color: var(--light-indigo);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Pasek nawigacji */
+header {
+  background-color: var(--deep-indigo);
+  border-radius: 8px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px 20px;
+  color: var(--light-indigo);
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.nav-link:hover {
+  background-color: var(--mid-indigo);
+}
+
+.nav-link.active {
+  background-color: var(--light-indigo);
+  color: var(--deep-indigo);
+}
+
+/* Przycisk menu mobilnego */
+.nav-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--light-indigo);
+  cursor: pointer;
+}
+
+.section {
+  display: none;
+  padding: 60px 0;
+}
+
+footer {
+  background-color: var(--deep-indigo);
+  text-align: center;
+  padding: 20px 0;
+  color: var(--light-indigo);
+  font-size: 0.9rem;
+  border-radius: 8px;
+}
+
+/* Media Queries dla urządzeń mobilnych */
+@media (max-width: 600px) {
+  .nav-list {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: var(--deep-indigo);
+    flex-direction: column;
+    width: 200px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .nav-list.open {
+    transform: translateX(0);
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+
+/* ----- Links colors ----- */ 
+
+/* unvisited link */
+main a:link {
+  color: var(--mid-indigo);
+}
+
+/* visited link */
+main a:visited {
+  color: var(--mid-indigo);
+}
+
+/* mouse over link */
+main a:hover {
+  color: #682fc4;
+}
+
+/* selected link */
+main a:active {
+  color: #682fc4;
+}

@@ -1,0 +1,48 @@
+/* ─── Sekcja „O mnie” ─── */
+
+#about {
+  background-color: var(--deep-indigo);
+  color: var(--light-indigo);
+  padding: 40px;
+  margin: 30px 0;
+  border-radius: 8px;
+}
+
+#about h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: left;
+  color: var(--light-indigo);
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+.description {
+  background-color: var(--black-blue);
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 8px;
+  border-left: 4px solid var(--mid-indigo);
+}
+
+/* ─── Responsywność ─── */
+
+@media (max-width: 600px) {
+  #about {
+    padding: 25px;
+    margin: 20px 0;
+  }
+
+  #about h1 {
+    font-size: 1.75rem;
+  }
+
+  #about p {
+    font-size: 1rem;
+  }
+}

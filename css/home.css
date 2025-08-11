@@ -1,0 +1,45 @@
+/* ─── Sekcja „Home” ─── */
+
+#home {
+  background-color: var(--deep-indigo);
+  color: var(--light-indigo);
+  padding: 40px;
+  margin: 30px;
+  border-radius: 8px;
+}
+
+.quote {
+  background-color: var(--black-blue);
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 8px;
+}
+
+/* Stylowanie cytatu na stronie głównej */
+.quote {
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin: 30px 0;
+  padding-left: 1rem;
+  border-left: 4px solid var(--mid-indigo);
+  color: var(--light-indigo);
+}
+
+/* Stylowanie autora cytatu */
+.quote strong {
+  display: block;
+  font-style: normal;
+  font-size: 1rem;
+  margin: 10px;
+  text-align: left;
+  color: var(--mid-indigo);
+}
+
+.section.active {
+  display: block;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
