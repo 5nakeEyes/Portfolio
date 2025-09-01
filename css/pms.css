@@ -1,8 +1,9 @@
 .project-detail {
   background-color: var(--deep-indigo);
   color: var(--light-indigo);
-  padding: 40px;
-  margin: 30px 0;
+  padding: 1rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
   border-radius: 8px;
   text-align: left;
 }
@@ -24,12 +25,74 @@
   background-color: var(--black-blue);
 }
 
-img {
+#taskListIcon {
   display: block;
   object-fit: cover;
   width: 90px;
   height: 90px;
 }
+
+.border {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .1rem;
+  border-radius: 6px;
+  background-color: var(--black-blue);
+  margin-bottom: 0.5rem;
+  margin-right: 0rem;
+}
+
+#summary{
+  background-color: var(--mid-indigo);
+}
+.project-description {
+  margin-bottom: 1rem;
+}
+
+.project-description img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  margin-bottom: 1rem;
+}
+
+.project-description h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.2em;
+  margin-left: 0px;
+}
+
+.project-description ul {
+  padding-left: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.project-description p {
+  padding-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.project-description #summary {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  padding-top: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.project-description #summary p{
+  margin-bottom: 0.1rem;
+}
+
 .img-border {
   padding: 5px;
   border-radius: 3px;
@@ -37,23 +100,33 @@ img {
 }
 
 .back-link-top {
-  margin-bottom: 40px;
-  padding: 10px;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
   background-color: var(--black-blue);
 }
 
 .back-link-bottom {
-  margin-top: 40px;
-  padding: 10px;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
   background-color: var(--black-blue);
 }
 
-.project-description {
-  margin-left: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.project-footer .border{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--mid-indigo);
+}
+.project-tech {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
-.project-tech, .project-repo {
-  padding-top: 10px;
+.project-repo {
+  margin-left: 1rem;
 }

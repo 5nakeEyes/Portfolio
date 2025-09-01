@@ -25,28 +25,92 @@
   <!-- Główna sekcja ze szczegółami projektu -->
   <main>
     <section class="project-detail">
-      <div class="back-link-top">
+      
+      <!-- Powrót do listy projektów -->
+      <section class="back-link-top">
         <a href="../index.html#projects">← Powrót do listy projektów</a>
-        </div>
+      </section>
+      
+      <!-- Nagłówek projektu -->
+      <section>
         <ul class="project-header">
-          <li class="img-border"><img src="../images/pms.png" alt="Zrzut ekranu PMS"></li>
+          <li class="img-border"><img id="taskListIcon" src="../images/taskListIcon.png" alt="taskListIcon"></li>
           <li>
             <h1>PMS</h1>
             <h2>Aplikacja desktopowa do zarządzania projektami</h2>
           </li>
         </ul>
-        <p class="project-description">
-          Opis projektu.
-        </p>
-        <p class="project-tech">
-          Technologie wykorzystane w projekcie: WPF, C#.
-        </p>
-        <p class="project-repo">
-          Kod źródłowy dostępny na GitHub: 
-          <a href="https://github.com/5nakeEyes/PMS" target="_blank" rel="noopener">
-            https://github.com/5nakeEyes/PMS
-          </a>
-        </p>
+      </section>
+      
+      <!-- Opis projektu -->
+      <section class="project-description">
+        <div id="summary" class="border">
+          <p>Intuicyjne narzędzie do planowania i realizacji projektów,
+          dzięki któremu masz pełną kontrolę 
+          nad swoimi projektami i zadaniami w jednym miejscu.</p>
+        </div>
+      <!-- Widok aplikacji -->
+          <img class="img-border" src="../images/AppView.png" alt="Zrzut ekranu PMS">
+
+      <!-- Zarządzanie projektami -->
+        <div class="border">
+            <h2 >Zarządzanie projektami</h2>
+            <p>Aplikacja prezentuje listę Twoich projektów i umożliwia pełną kontrolę nad nimi.</p>
+            <ul>
+              <li>Przeglądanie wszystkich projektów na jednej liście</li>
+              <li>Dodawanie nowego projektu z nazwą i terminem zakończenia</li>
+              <li>Edytowanie nazwy lub terminu istniejącego projektu</li>
+              <li>Usuwanie niepotrzebnych projektów po potwierdzeniu</li>
+              <li>Automatyczne odświeżanie listy, by zobaczyć najnowsze zmiany</li>
+              <li>Automatyczne zapisywanie wszystkich projektów na raz, aby utrwalić modyfikacje</li>
+            </ul>
+            <p>Po każdej operacji lista automatycznie się aktualizuje, a przy edycji lub usuwaniu system pyta o potwierdzenie, żeby uniknąć przypadkowych usunięć.</p>
+          </div>
+
+        <!-- Zarządzanie zadaniami -->
+          <div class="border">
+            <h2>Zarządzanie zadaniami w projekcie</h2>
+            <p>Po wybraniu konkretnego projektu widzisz listę wszystkich powiązanych zadań.</p>
+              <ul>
+                <li>Dodawanie nowego zadania z tytułem, opisem, priorytetem i terminem</li>
+                <li>Usuwanie wybranych zadań z potwierdzeniem</li>
+                <li>Zmiana tytułu, priorytetu lub terminu zadania w każdej chwili</li>
+                <li>Automatyczne zapisywanie zmian w tle, bez dodatkowych przycisków</li>
+              </ul>
+            <p>Dodatkowo możesz:</p>
+              <ul>
+                <li>Wyszukiwać zadania po dowolnym fragmencie tekstu (tytuł, opis, termin, stan czy priorytet)</li>
+                <li>Sortować listę według tytułu (rosnąco/malejąco), priorytetu (↑ / ↓) lub terminu</li>
+              </ul>
+          </div>
+
+        <!-- Dodatkowo -->
+          <div class="border">
+            <h2>Synchronizacja wyboru projektu i listy zadań</h2>
+            <p>Wybierając inny projekt, automatycznie przełączasz widok zadań na te powiązane z nowym projektem. Dzięki temu masz zawsze pod ręką tylko te zadania, które dotyczą aktualnie wybranego projektu.</p>
+          </div>
+      </section>
+      
+      <!-- Stopka projektu -->
+      <section class="project-footer">
+        
+        <!-- Użyte technologie -->
+          <div class="border">
+            <p class="project-tech">
+                Technologie wykorzystane w projekcie: WPF, C#.
+            </p>
+          
+          <!-- Link do repo -->  
+            <p class="project-repo"> Kod źródłowy dostępny na GitHub: 
+              <a href="https://github.com/5nakeEyes/PMS" target="_blank" rel="noopener">
+                https://github.com/5nakeEyes/PMS
+              </a>
+            </p>
+          </div>
+      </section>
+        
+      <!-- Powrót do listy projektów -->
+    <section>
         <div class="back-link-bottom">
         <a href="../index.html#projects">← Powrót do listy projektów</a>
         </div>
