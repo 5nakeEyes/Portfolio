@@ -79,14 +79,12 @@
 .project-description #summary {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  display: flex;
-  justify-items: center;
   text-align: center;
   padding-top: .5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .project-description #summary p{
@@ -116,8 +114,8 @@
 }
 
 .project-footer .border{
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   text-align: center;
   padding: 1rem;
   background-color: var(--mid-indigo);
