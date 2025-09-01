@@ -138,6 +138,10 @@ main a:active {
     overflow-y: auto;
   }
 
+.nav-link {
+  text-align: center;
+}
+
 .nav-list.open {
     transform: translateY(0);
 }
