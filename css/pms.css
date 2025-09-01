@@ -120,6 +120,11 @@
   padding: 1rem;
   background-color: var(--mid-indigo);
 }
+
+.project-footer a:link, .project-footer a:visited{
+  color: var(--link-color);
+}
+
 .project-tech {
   margin-bottom: 1rem;
   margin-left: 1rem;
