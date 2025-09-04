@@ -192,4 +192,9 @@ main a:active {
   .img-border {
     padding: 0;
   }
+
+.tutorial-btn.active {
+  background-color: var(--light-indigo);
+  color: var(--mid-indigo);
+}
 }
