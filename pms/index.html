@@ -68,12 +68,11 @@
           </div>
 
         <div class="tutorial-buttons">
-          <button onclick="showImages('add')" id="btn-add" class="tutorial-btn active">Jak dodać projekt?</button>
-          <button onclick="showImages('delete')" id="btn-delete" class="tutorial-btn">Jak usunąć projekt?</button>
+          <button onclick="showProjectImages('add-project')" id="btn-add-project" class="tutorial-btn active">Jak dodać projekt?</button>
+          <button onclick="showProjectImages('delete-project')" id="btn-delete-project" class="tutorial-btn">Jak usunąć projekt?</button>
         </div>
 
-        
-        <div id="add-images" class="tutorial-images">
+        <div id="add-project-images" class="tutorial-images">
           <figure>
             <img class="img-border" src="../images/add_project1.png" alt="Wciśnij przycisk Add project +">
             <figcaption>Wciśnij przycisk "Add project +"</figcaption>
@@ -92,7 +91,7 @@
           </figure>
         </div>
 
-        <div id="delete-images" class="tutorial-images">
+        <div id="delete-project-images" class="tutorial-images">
           <figure>
             <img class="img-border" src="../images/delete_project1.png" alt="Wybierz projek z listy">
             <figcaption>Wybierz projek z listy</figcaption>
@@ -123,6 +122,65 @@
                 <li>Sortować listę według tytułu (rosnąco/malejąco), priorytetu (↑ / ↓) lub terminu</li>
               </ul>
           </div>
+
+          <div class="tutorial-buttons">
+          <button onclick="showTaskImages('add-task')" id="btn-add-task" class="tutorial-btn active">Jak dodać zadanie?</button>
+          <button onclick="showTaskImages('delete-task')" id="btn-delete-task" class="tutorial-btn">Jak usunąć zadanie?</button>
+          <button onclick="showTaskImages('sort-task')" id="btn-sort-task" class="tutorial-btn">Sortowanie zadań</button>
+          <button onclick="showTaskImages('search-task')" id="btn-search-task" class="tutorial-btn">Wyszukiwanie</button>
+          </div>
+
+        <div id="add-task-images" class="tutorial-images">
+          <figure>
+            <img class="img-border" src="../images/add_task1.png" alt="Wciśnij przycisk 'Add task +'">
+            <figcaption>Wciśnij przycisk "Add task +"</figcaption>
+          </figure>
+          <figure>
+            <img class="img-border" src="../images/add_task2.png" alt="Wprowadź nazwę projeku oraz wybierz termin zakończenia">
+            <figcaption>Wprowadź nazwę projeku oraz wybierz termin zakończenia</figcaption>
+          </figure>
+          <figure>
+            <img class="img-border" src="../images/add_task3.png" alt="Opcjonalnie wpisz opis oraz wybierz priorytet">
+            <figcaption>Opcjonalnie wpisz opis oraz wybierz priorytet</figcaption>
+          </figure>
+          <figure>
+            <img class="img-border" src="../images/add_task4.png" alt="Zatwierdź wprowadzone dane">
+            <figcaption>Zatwierdź wprowadzone dane</figcaption>
+          </figure>
+        </div>
+
+        <div id="delete-task-images" class="tutorial-images">
+          <figure>
+            <img class="img-border" src="../images/delete_task1.png" alt="Wybierz przycisk 'delete'">
+            <figcaption>Wybierz przycisk 'delete'</figcaption>
+          </figure>
+          <figure>
+            <img class="img-border" src="../images/delete_task2.png" alt="Zatwierdź usuwanie">
+            <figcaption>Zatwierdź usuwanie</figcaption>
+          </figure>
+        </div>
+
+        <div id="sort-task-images" class="tutorial-images">
+          <figure>
+            <img class="img-border" src="../images/sort_task1.png" alt="Naciśnij na pole">
+            <figcaption>Naciśnij na pole</figcaption>
+          </figure>
+          <figure>
+            <img class="img-border" src="../images/sort_task2.png" alt="Wybierz rodzaj sortowania">
+            <figcaption>Wybierz rodzaj sortowania</figcaption>
+          </figure>
+        </div>
+
+        <div id="search-task-images" class="tutorial-images">
+          <figure>
+            <img class="img-border" src="../images/search_task1.png" alt="Naciśnij na pole">
+            <figcaption>Naciśnij na pole</figcaption>
+          </figure>
+          <figure>
+            <img class="img-border" src="../images/search_task2.png" alt="Wpisz szukaną frazę">
+            <figcaption>Wpisz szukaną frazę</figcaption>
+          </figure>
+        </div>
 
         <!-- Dodatkowo -->
           <div class="border">

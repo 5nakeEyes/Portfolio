@@ -132,16 +132,16 @@
 }
 
 .tutorial-images img {
-  width: 80%;
+  width: 70%;
   height: fit-content;
   border-radius: 8px;
 }
 
-#add-images {
+#add-project-images, #add-task-images {
   display: flex;
 }
 
-#delete-images {
+#delete-project-images, #delete-task-images, #sort-task-images, #search-task-images {
   display: none;
 }
 

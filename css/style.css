@@ -164,4 +164,32 @@ main a:active {
 .project-tile {
     width: 100%;
   }
+
+.tutorial-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tutorial-images {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tutorial-images figure {
+    width: 100%;
+  }
+
+  .tutorial-images img {
+    width: 1000px;
+    border-radius: 8px;
+  }
+
+  .tutorial-images figcaption {
+    text-align: center;
+  }
+
+  .img-border {
+    padding: 0;
+  }
 }
