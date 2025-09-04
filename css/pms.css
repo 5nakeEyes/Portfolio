@@ -97,6 +97,65 @@
   background-color: var(--mid-indigo);
 }
 
+
+.tutorial-buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1rem 0;
+  justify-content: center;
+}
+
+.tutorial-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--mid-indigo);
+  color: var(--light-indigo);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tutorial-btn:hover {
+  background-color: var(--mid-indigo);
+}
+
+.tutorial-btn.active {
+  background-color: var(--light-indigo);
+}
+
+.tutorial-images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.tutorial-images img {
+  width: 80%;
+  height: fit-content;
+  border-radius: 8px;
+}
+
+#add-images {
+  display: flex;
+}
+
+#delete-images {
+  display: none;
+}
+
+figcaption {
+  margin-top: -.5rem;
+  font-size: .8rem;
+  text-align: center;
+}
+
+figure {
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
 .back-link-top {
   margin-bottom: 1rem;
   padding-top: 0.5rem;

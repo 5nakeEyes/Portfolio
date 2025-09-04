@@ -67,6 +67,46 @@
             <p>Po każdej operacji lista automatycznie się aktualizuje, a przy edycji lub usuwaniu system pyta o potwierdzenie, żeby uniknąć przypadkowych usunięć.</p>
           </div>
 
+        <div class="tutorial-buttons">
+          <button onclick="showImages('add')" id="btn-add" class="tutorial-btn active">Jak dodać projekt?</button>
+          <button onclick="showImages('delete')" id="btn-delete" class="tutorial-btn">Jak usunąć projekt?</button>
+        </div>
+
+        
+        <div id="add-images" class="tutorial-images">
+          <figure>
+            <img class="img-border" src="../images/add_project1.png" alt="Wciśnij przycisk Add project +">
+            <figcaption>Wciśnij przycisk "Add project +"</figcaption>
+          </figure>
+          <figure>
+            <img class="img-border" src="../images/add_project2.png" alt="Wprowadź nazwę projeku">
+            <figcaption>Wprowadź nazwę projeku</figcaption>
+          </figure>
+          <figure>
+            <img class="img-border" src="../images/add_project3.png" alt="Wybierz termin zakończenia">
+            <figcaption>Wybierz termin zakończenia</figcaption>
+          </figure>
+          <figure>
+            <img class="img-border" src="../images/add_project4.png" alt="Zatwierdź wprowadzone dane">
+            <figcaption>Zatwierdź wprowadzone dane</figcaption>
+          </figure>
+        </div>
+
+        <div id="delete-images" class="tutorial-images">
+          <figure>
+            <img class="img-border" src="../images/delete_project1.png" alt="Wybierz projek z listy">
+            <figcaption>Wybierz projek z listy</figcaption>
+          </figure>
+          <figure>
+            <img class="img-border" src="../images/delete_project2.png" alt="Wciśnij przycisk 'delete'">
+            <figcaption>Wciśnij przycisk "delete"</figcaption>
+          </figure>
+          <figure>
+            <img class="img-border" src="../images/delete_project3.png" alt="Zatwierdź usuwanie">
+            <figcaption>Zatwierdź usuwanie</figcaption>
+          </figure>
+        </div>
+
         <!-- Zarządzanie zadaniami -->
           <div class="border">
             <h2>Zarządzanie zadaniami w projekcie</h2>
@@ -120,7 +160,7 @@
   <footer>
     <p>© 2025 Maciej Cieplucha</p>
   </footer>
-
+  <script defer src="../js/tutorial.js"></script>
   <script defer src="../js/script.js"></script>
 </body>
 </html>
